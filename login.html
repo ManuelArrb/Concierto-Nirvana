@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Concierto Nirvana - Ingreso</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Concierto Tributo a Nirvana</h1>
+    <nav>
+      <a href="login.html">Ingreso</a>
+      <a href="evento.html">Evento</a>
+      <a href="pago.html">Pago</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Registro de asistente</h2>
+      <form action="evento.html" method="get">
+        <article>
+          <label for="nombre">Nombre completo</label><br>
+          <input type="text" id="nombre" name="nombre" required>
+        </article>
+
+        <article>
+          <label for="tipoDocumento">Tipo de documento</label><br>
+          <select id="tipoDocumento" name="tipoDocumento" required>
+            <option value="">Seleccione una opción</option>
+            <option value="TI">Tarjeta de Identidad (TI)</option>
+            <option value="CC">Cédula de Ciudadanía (CC)</option>
+          </select>
+        </article>
+
+        <article>
+          <label for="numeroDocumento">Número de documento</label><br>
+          <input type="text" id="numeroDocumento" name="numeroDocumento" required>
+        </article>
+
+        <button type="submit">Continuar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Concierto Tributo a Nirvana. Todos los derechos reservados.</p>
+  </footer>
+
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

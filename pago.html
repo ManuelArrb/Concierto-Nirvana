@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Concierto Nirvana - Pago</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Concierto Tributo a Nirvana</h1>
+    <nav>
+      <a href="login.html">Ingreso</a>
+      <a href="evento.html">Evento</a>
+      <a href="pago.html">Pago</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Selecciona tu ubicación</h2>
+      <form action="#" method="post">
+        <article>
+          <label for="ubicacion">Ubicación</label><br>
+          <select id="ubicacion" name="ubicacion" required>
+            <option value="">Seleccione una opción</option>
+            <option value="silla">Silla - $150.000</option>
+            <option value="puesto">Puesto General - $90.000</option>
+            <option value="balcon">Balcón - $200.000</option>
+          </select>
+        </article>
+
+        <article>
+          <label for="cantidad">Cantidad de boletas</label><br>
+          <input type="number" id="cantidad" name="cantidad" min="1" value="1" required>
+        </article>
+
+        <h2>Método de pago</h2>
+        <article>
+          <label>
+            <input type="radio" name="metodoPago" value="tarjeta" required>
+            Tarjeta de crédito/débito
+          </label><br>
+          <label>
+            <input type="radio" name="metodoPago" value="pse">
+            PSE
+          </label><br>
+          <label>
+            <input type="radio" name="metodoPago" value="efectivo">
+            Pago en efectivo
+          </label>
+        </article>
+
+        <button type="submit">Confirmar compra</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Concierto Tributo a Nirvana. Todos los derechos reservados.</p>
+  </footer>
+
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

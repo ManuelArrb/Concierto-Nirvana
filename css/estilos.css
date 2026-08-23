@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: black;
+  padding: 25px;
+  border-bottom: 3px solid yellow;
+}
+
+h1 {
+  color: rgb(251, 251, 250);
+  text-align: center;
+  font-size: 40px;
+  margin: 0 0 20px;
+}
+
+/* Menú */
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 50px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Contenido */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #322e2e;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid yellow;
+  border-right: 4px solid yellow;
+}
+
+h2 {
+  color: yellow;
+}
+
+/* Formularios */
+article {
+  margin-bottom: 20 px;
+}
+
+input,
+select {
+  background-color: #2B2B2B;
+  color: white;
+  border: 2px solid yellow;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111111;
+}
